@@ -1,0 +1,102 @@
+# --- Backend (Node.js) ---
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Runtime data
+.nyc_output
+dist/
+out/
+
+# Cache
+.cache/
+# --- End Backend ---
+
+
+# --- Frontend (React) ---
+# Dependencies
+/client/node_modules/
+/client/.pnp
+/client/.pnp.js
+
+# Production
+/client/build/
+/client/dist/
+
+# Testing
+/client/coverage/
+
+# Misc
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# Debug Logs
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# Editor directories and files
+/client/.idea
+/client/.vscode
+/client/.suo
+/client/.ntvs*
+/client/.njsproj
+/client/.sln
+/client/.sw?
+
+# Local development
+/client/.cache/
+/client/parcel-bundle/
+/client/.parcel-cache/
+# --- End Frontend ---
+
+
+# --- Common ---
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local development
+.sass-cache/
+*.stamp
+
+# Testing
+/coverage
+.nyc_output
+
+# Local databases
+*.db
+*.sqlite
+*.sql
+
+# Temporary files
+*.tmp
+*.bak
